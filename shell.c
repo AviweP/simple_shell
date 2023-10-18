@@ -18,7 +18,7 @@ int main(void)
 	char *token;
 	int status, x = 0;
 	char **array;
-	
+
 	while (1)
 	{
 		write(1, "#cisfun$ ", 9);
@@ -39,5 +39,4 @@ int main(void)
 		x = 0;
 		free(array);
 	}
-	x = 0;
 }
