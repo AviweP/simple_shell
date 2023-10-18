@@ -12,15 +12,8 @@ int main(void)
 {
 pid_t my_pid;  /**pid_ is a variable and the my_pid is a variable name **/
 
-my_pid = getpid();   /** the variable name get the process id **/
+my_pid = getpid();   /** the variable name get the process id*/
+printf("%u\n", my_pid);
 
-while (my_pid)
-{
-	if (my_pid == -1)
-	perror("error: no pid found");
-
-	else
-	return (0);
-}
 return (0);
 }
