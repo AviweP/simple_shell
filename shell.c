@@ -11,7 +11,7 @@
  * return: 1 in error, 0 otherwise.
  */
 
-int main(void)
+int main(int argc, char argv[])
 {
 	size_t n = 0;
 	char *buffer = NULL;
