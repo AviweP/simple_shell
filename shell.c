@@ -7,7 +7,7 @@
  * return: 1 in error, 0 otherwise.
  */
 
-int main(int argc, char argv[])
+int main(void)
 {
 	size_t n = 0;
 	char *buffer = NULL;
