@@ -1,8 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <string.h>
-#include <sys/types.h>
+#include "shell.h"
 
 /**
  * command_line - read lines of text entered by a use.
